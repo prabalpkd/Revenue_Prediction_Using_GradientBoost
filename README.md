@@ -1,4 +1,4 @@
-# 📈 Revenue Prediction using Machine Learning
+# 📈 Revenue Prediction using Gradient Boosting : Regression
 
 This project aims to predict **Revenue ($)** based on **Ad Spend ($)** and **Season** using a simple dataset. The project walks through the complete machine learning workflow: from visualization and preprocessing to model training and evaluation.
 
