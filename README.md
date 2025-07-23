@@ -18,12 +18,12 @@ The dataset contains **200 rows** and **3 columns**:
 ### 📊 1. Bar Graph: Ad Spend & Revenue per Season
 Visualized average Ad Spend and Revenue across different seasons to observe seasonal trends.
 
-![Bar Plot](visuals/barplot.png)
+![Bar Plot](https://github.com/prabalpkd/Revenue_Prediction_Using_GradientBoost/blob/main/Snap_01.png)
 
 ### ⚫ 2. Scatter Plot: Ad Spend vs Revenue (per Season)
 Plotted a scatter plot to examine the relationship between Ad Spend and Revenue, grouped by Season.
 
-![Scatter Plot](visuals/scatterplot.png)
+![Scatter Plot](https://github.com/prabalpkd/Revenue_Prediction_Using_GradientBoost/blob/main/Snap_02.png)
 
 ---
 
@@ -43,7 +43,7 @@ from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 model.fit(X_train, y_train)
 model.score(X_test, y_test)
-# R2 Score ≈ 0.88
+R2 Score ≈ 0.88
 
 ### 🌳 Decision Tree Regression
 
@@ -51,7 +51,7 @@ from sklearn.tree import DecisionTreeRegressor
 model = DecisionTreeRegressor()
 model.fit(X_train, y_train)
 model.score(X_test, y_test)
-# R2 Score ≈ 0.91
+R2 Score ≈ 0.91
 
 🚀 Gradient Boosting Regression
 
@@ -60,7 +60,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 model = GradientBoostingRegressor()
 model.fit(X_train, y_train)
 model.score(X_test, y_test)
-# R2 Score ≈ 0.93
+R2 Score ≈ 0.93
 
 ## 📈 Prediction Evaluation
 Sample prediction comparison (Actual vs Predicted Revenue):
